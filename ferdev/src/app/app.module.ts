@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
@@ -16,6 +16,9 @@ import { AcrolComponent } from './pages/portafolio/acrol/acrol.component';
 import { CentinelaComponent } from './pages/portafolio/centinela/centinela.component';
 import { SigdComponent } from './pages/portafolio/sigd/sigd.component';
 import { SigdMovilComponent } from './pages/portafolio/sigd-movil/sigd-movil.component';
+import { AcercadeComponent } from './pages/acercade/acercade.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,11 +35,15 @@ import { SigdMovilComponent } from './pages/portafolio/sigd-movil/sigd-movil.com
     AcrolComponent,
     CentinelaComponent,
     SigdComponent,
-    SigdMovilComponent
+    SigdMovilComponent,
+    AcercadeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

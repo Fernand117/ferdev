@@ -12,6 +12,7 @@ import { SigdMovilComponent } from './pages/portafolio/sigd-movil/sigd-movil.com
 import { SiviComponent } from './pages/portafolio/sivi/sivi.component';
 import { TlackwaliComponent } from './pages/portafolio/tlackwali/tlackwali.component';
 import { VentasComponent } from './pages/portafolio/ventas/ventas.component';
+import { AcercadeComponent } from './pages/acercade/acercade.component';
 
 const routes: Routes = [
   {
@@ -49,6 +50,9 @@ const routes: Routes = [
   },
   {
     path: 'portafolio/ventas', component: VentasComponent
+  },
+  {
+    path: 'acerca-de', component: AcercadeComponent
   },
   {
     path: '', pathMatch: 'full', redirectTo: 'inicio'

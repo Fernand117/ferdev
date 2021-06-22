@@ -11,7 +11,7 @@
 
 .contBody {
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     margin-top: 15%;
     background-color: white;
     .contLb {
@@ -19,7 +19,6 @@
         height: auto;
         margin-top: 5%;
         position: absolute;
-        background-color: royalblue;
         text-align: center;
         .txt {
             width: 300px;
@@ -43,7 +42,6 @@
     .contDesc {
         width: 100%;
         height: auto;
-        //background-color: royalblue;
         margin-bottom: -8%;
         padding-top: 1px;
         p {
@@ -55,13 +53,11 @@
         background-color: white;
         .dt {
             width: 100%;
-            height: 800px;
-            background-color: white;
+            height: 700px;
             .dtd {
                 width: 32%;
-                height: 800px;
+                height: 700px;
                 margin-left: 1%;
-                //background-color: rebeccapurple;
                 float: left;
                 .cdt {
                     width: 100%;

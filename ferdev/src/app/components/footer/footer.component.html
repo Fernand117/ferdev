@@ -1,0 +1,69 @@
+<footer>
+    <div class="acerca">
+        <div class="logo">
+            <img src="https://fernand117.github.io/ferdevPortafolio/assets/img/logo_fer_white.png" alt="" width="50" height="40" class="d-inline-block align-text-top">
+            <h2>FERDEV</h2>
+        </div>
+        <div class="desc">
+            Crear soluciones basadas en el software que permiten facilitar la vida y actividades del ser humano es una labor humanista que requiere trabajo, creatividad e innovación.
+        </div>
+    </div>
+    <div class="servicios">
+        <h4>Servicios</h4>
+        <nav>
+            <ul>
+                <li>Diseño web</li>
+                <li>Aplicaciones web</li>
+                <li>Desarrollo móvil</li>
+                <li>Desarrollo backend</li>
+                <li>Servidores</li>
+                <li>Soporte técnico</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="proyectos">
+        <h4>Proyectos realizados</h4>
+        <nav>
+            <ul>
+                <li>SIVI Industrias Wald</li>
+                <li>RH Industrias Wald</li>
+                <li>Tlackwali</li>
+                <li>Sistema de Ventas</li>
+                <li>Acrol App</li>
+                <li>Centinela</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="contacto">
+        <h4>Contáctanos</h4>
+        <form class="formulario" (ngSubmit)="enviarEmail()" #form="ngForm">
+            <div class="frmDts">
+                <div class="nom">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="form-control frm" [(ngModel)]="emailDatos.nombre">
+                </div>
+                <div class="num">
+                    <input type="text" name="telefono" id="telefono" placeholder="Número de teléfono" class="form-control frm" [(ngModel)]="emailDatos.telefono">
+                </div>
+            </div>
+            <div class="mail">
+                <input type="email" name="email" id="email" placeholder="Correo electronico" class="form-control" [(ngModel)]="emailDatos.email">
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" class="form-control mensaje" [(ngModel)]="emailDatos.mensaje"></textarea>
+                <button class="btn btn-primary">ENVIAR</button>
+            </div>
+        </form>
+    </div>
+    <div class="fbar">
+        <h5>SÍGUENOS EN NUESTAS REDES</h5>
+        <div class="logo">
+            <a href="https://www.instagram.com/ferdevoficial/" class="enlace" target="_blank">
+                <img src="https://fernand117.github.io/ferdevPortafolio/assets/img/icons8-instagram-480.png" alt="" class="iconEnlace">
+            </a>
+            <a href="https://www.linkedin.com/in/luis-fernando-leyva-luna-937a29129/" class="enlace" target="_blank">
+                <img src="https://fernand117.github.io/ferdevPortafolio/assets/img/icons8-linkedin-100.png" alt="" class="iconEnlace">
+            </a>
+            <a href="https://github.com/Fernand117" class="enlace" target="_blank">
+                <img src="https://fernand117.github.io/ferdevPortafolio/assets/img/icons8-github-100.png" alt="" class="iconEnlace">
+            </a>
+        </div>
+    </div>
+</footer>
