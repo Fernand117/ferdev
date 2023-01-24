@@ -1,95 +1,220 @@
+.banner {
+  width: 100%;
+  height: 650px;
+  background-image: url("/../../assets/img/man_programmer_background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #0d47a1;
+
+  .cont {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 45, 77, 0.623);
+    backdrop-filter: blur(5px);
+
     .contHeader {
-        margin: 0 auto;
-        margin-top: 0%;
-        width: 70%;
+      margin: 0 auto;
+      width: 70%;
+      text-align: center;
+      color: white;
+      //background: white;
+      .t1h {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.5em;
+        font-feature-settings: 'cpsp' on;
+        margin-top: 10%;
+      }
+
+      .t2h {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 112px;
         text-align: center;
+      }
+
+      h1 {
+        font-size: 50px;
+      }
+
+      h4 {
+        margin-top: 5%;
+        font-size: 30px;
+      }
+
+      .btn {
+        margin-top: 2%;
+        width: 200px;
+        height: 50px;
+        border-style: none;
+        border-radius: 2px;
         color: white;
-        .t1h {
+        font-weight: 400;
+        background-color: #F07F05;
+        font-size: 16px;
+      }
+
+      .btn:hover {
+        background-color: transparent;
+        border-style: solid;
+        border-color: white;
+        color: white;
+      }
+    }
+  }
+}
+
+.contBody {
+  width: 100%;
+  height: auto;
+  background: white;
+  margin-top: 5%;
+
+  .cbh {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+
+    .tcb1 {
+      width: 100%;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .tcb2 {
+      width: 100%;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    .icb {
+      width: 100%;
+      height: 250px;
+      //background: #0d47a1;
+      text-align: center;
+
+      .iop {
+        width: 20%;
+        height: auto;
+        //background: #F07F05;
+        float: left;
+        padding: 16px;
+
+        .tiop {
+          font-weight: 700;
+          margin-top: 10%;
+          font-size: 18px;
+        }
+
+        p {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+        }
+      }
+    }
+  }
+
+  .cam {
+    width: 100%;
+    height: 400px;
+    background: #F07F05;
+    margin-top: 10%;
+
+    .mobile {
+      width: 100%;
+      height: 400px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 350px;
+      line-height: 410px;
+      color: #FFA23D;
+    }
+
+    .scam {
+      width: 100%;
+      height: 400px;
+      //background: #0d47a1;
+      margin-top: -30.8%;
+      position: absolute;
+      z-index: 1;
+
+      .cscam {
+        width: 50%;
+        height: 400px;
+        //background-color: rebeccapurple;
+        float: left;
+
+        .scscam {
+          width: 80%;
+          height: 400px;
+          margin: 0 auto;
+          background: white;
+
+          .tscscam {
+            padding-left: 24px;
+            padding-top: 27px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+          }
+
+          .cscscam {
+            width: 400px;
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
             line-height: 16px;
-            letter-spacing: 0.5em;
-            font-feature-settings: 'cpsp' on;
-            margin-top: 10%;
+            margin-top: 12%;
+            margin-left: 24px;
+          }
         }
-        .t2h {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 96px;
-            line-height: 112px;
-            text-align: center;
-        }
-        h1 {
-            font-size: 50px;
-        }
-        h4 {
-            margin-top: 5%;
-            font-size: 30px;
-        }
-        .btn {
-            margin-top: 2%;
-            width: 200px;
-            height: 50px;
-            border-style: none;
-            border-radius: 2px;
-            color: white;
-            font-weight: 400;
-            background-color: #F07F05;
-            font-size: 16px;
-        }
-        .btn:hover {
-            background-color: transparent;
-            border-style: solid;
-            border-color: white;
-            color: white;
-        }
-    }
 
-    .contBody{
-      width: 100%;
-      height: 100vh;
-      background: white;
-      margin-top: 5%;
-      .cbh {
-        width: 100%;
-        height: auto;
-        padding: 5%;
-        .tcb1 {
-          width: 100%;
-          font-weight: 700;
+        .imgcCam {
           text-align: center;
-        }
-        .tcb2 {
-          width: 100%;
-          font-weight: 400;
-          text-align: center;
+          background: none;
+
+          .imgCam {
+            margin-top: -15%;
+          }
         }
       }
     }
+  }
+}
 
-    @media (max-width: 575.98px) {
-        .contHeader {
-            width: 100%;
-            padding-top: 16%;
-            h1 {
-                font-size: 30px;
-            }
-            h4 {
-                font-size: 15px;
-            }
-        }
+@media (max-width: 575.98px) {
+  .contHeader {
+    width: 100%;
+    padding-top: 16%;
+
+    h1 {
+      font-size: 30px;
     }
 
-    @media (max-width: 767.98px) {
-        .contHeader {
-            width: 100%;
-            padding-top: 16%;
-            h1 {
-                font-size: 30px;
-            }
-            h4 {
-                font-size: 15px;
-            }
-        }
+    h4 {
+      font-size: 15px;
     }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .contHeader {
+    width: 100%;
+    padding-top: 16%;
+
+    h1 {
+      font-size: 30px;
+    }
+
+    h4 {
+      font-size: 15px;
+    }
+  }
+}
