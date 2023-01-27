@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "node-terminal",
+            "name": "AngularRun",
+            "request": "launch",
+            "command": "ng serve -o",
+            "cwd": "${workspaceFolder}/ferdev"
+        }
+    ]
+}
